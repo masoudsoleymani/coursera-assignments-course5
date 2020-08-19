@@ -1,5 +1,5 @@
 # Single Page Web Application with AngularJS (by Johns Hopkins University)
-Course Link: https://www.coursera.org/learn/html-css-javascript-for-web-developers
+Course Link: https://www.coursera.org/learn/single-page-web-apps-with-angularjs/
 
 #
 Module #1 Coding Assignment
