@@ -11,5 +11,8 @@ Module #2 Coding Assignment
 Description : https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md
 - Solution Link : https://masoudsoleymani.github.io/coursera-assignments-course5/module2-solution/
 
-
+#
+Module #3 Coding Assignment
+Description : https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-3.md
+- Solution Link : https://masoudsoleymani.github.io/coursera-assignments-course5/module3-solution/index.html
 
