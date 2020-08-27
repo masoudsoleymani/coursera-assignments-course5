@@ -1,9 +1,16 @@
 <ul>
   <li ng-repeat="item in list">
-    {{item.short_name}},{{item.name}},{{item.description}}
-     <button class="btn btn-primary" ng-click="onRemove({index: $index});">Don't want this one!</button>
+    <div class="col-md-6">
+    	<div class="jumbotron">
+	    	<h2>{{item.name}}</h2>
+	        <h3>{{item.short_name}}</h3>
+	        <p>{{item.description}}</p>
+	        <button class="btn btn-primary" ng-click="onRemove({index: $index});">Don't want this one!</button>
+    	</div>
+    </div>
   </li>
 </ul>
-<div ng-if="list.length == 0">
-  <h3>Nothing Found!</h3>
+<div class="alert alert-danger" ng-if="list.length == 0">
+  Nothing Found!
 </div>
+

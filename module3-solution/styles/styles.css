@@ -5,13 +5,17 @@ input[type="text"] {
   width: 200px;
   float: left;
 }
+ul {
+  margin-top: 80px;
+  list-style-type: none;
+}
 .narrow-button {
   float: left;
   margin-left: 10px;
 }
 .loader {
   display: none;
-  margin-left: 5px;
+  margin-left: 15px;
   font-size: 10px;
   float: left;
   border-top: 1.1em solid rgba(147, 147, 147, 0.2);
