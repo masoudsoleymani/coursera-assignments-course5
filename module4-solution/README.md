@@ -1,7 +1,4 @@
-# Module 4 Assignment
-
-
-"Restaurant menu application"
+# Module 4 Assignment. "Restaurant menu application"
 
 
 
