@@ -11,7 +11,7 @@
           <div>
             <span
               ng-if="(regForm.firstname.$error.minlength || regForm.firstname.$error.required || regForm.firstname.$invalid) && regForm.firstname.$touched">
-                Please enter a valid first name. 
+                Please enter a valid first name.
             </span>
             <span ng-if="regForm.firstname.$error.maxlength && regForm.firstname.$touched">
               Firstname can not be longer than 30 characters.
@@ -54,10 +54,11 @@
         <div>
           <input type="text" name="phone" placeholder="Mobile phone number*"
           ng-model="reg.user.phone"
+          required
           pattern="(\d{3})(\d{3})(\d{3})">
           <div>
             <span ng-if="regForm.phone.$invalid && regForm.phone.$touched">
-              Phone number must be 9 digits long.
+            Please enter a valid 9 digits Phone number.
             </span>
           </div>
           <br>
